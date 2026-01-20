@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module 3 - CSS Basics | CodeCraft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5.3.8 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="CodeCraft Favicon.png">
+</head>
+
+<body class="bg-black text-white">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">CodeCraft</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link active" href="web-development.html">Web Development</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="py-5 bg-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold text-info">Module 3: CSS Basics & Styling</h1>
+    <p class="text-light mt-2">
+      Learn how to make your webpages beautiful using Cascading Style Sheets
+    </p>
+  </div>
+</section>
+
+<!-- Video -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="text-info mb-3">Lesson Video</h3>
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.youtube.com/embed/yfoY53QXEnI"
+        title="CSS Basics Video"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Notes -->
+<section class="py-4 bg-dark">
+  <div class="container">
+    <h3 class="text-info">Notes & Transcript</h3>
+    <ul class="text-light mt-3">
+      <li>CSS stands for Cascading Style Sheets</li>
+      <li>CSS controls layout, colors, fonts, and spacing</li>
+      <li>Inline CSS is written inside an HTML tag</li>
+      <li>Internal CSS is written inside a &lt;style&gt; tag</li>
+      <li>External CSS is written in a separate .css file</li>
+      <li>Selectors target elements to apply styles</li>
+      <li>Classes start with a dot (.) and IDs start with a hash (#)</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Practice -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="text-info">Practice Task</h3>
+    <p class="text-light mt-2">
+      Create a webpage with a heading, paragraph, and button. Style them using an external CSS file.
+    </p>
+
+    <p class="text-light fw-bold">Expected Output:</p>
+    <p class="text-light">
+      A styled webpage with custom colors, spacing, and fonts.
+    </p>
+  </div>
+</section>
+
+<!-- MCQs -->
+<section class="py-4 bg-dark">
+  <div class="container">
+    <h3 class="text-info">MCQs Quiz</h3>
+
+    <form class="text-light mt-3">
+
+      <div class="mb-3">
+        <p>1. What does CSS stand for?</p>
+        <div>
+          <input type="radio" name="q1"> A) Creative Style Sheets<br>
+          <input type="radio" name="q1"> B) Cascading Style Sheets<br>
+          <input type="radio" name="q1"> C) Colorful Style Sheets<br>
+          <input type="radio" name="q1"> D) Computer Style Sheets
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>2. Which symbol is used for class selectors?</p>
+        <div>
+          <input type="radio" name="q2"> A) #<br>
+          <input type="radio" name="q2"> B) .<br>
+          <input type="radio" name="q2"> C) *<br>
+          <input type="radio" name="q2"> D) @
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>3. Which CSS method is best for large websites?</p>
+        <div>
+          <input type="radio" name="q3"> A) Inline<br>
+          <input type="radio" name="q3"> B) Internal<br>
+          <input type="radio" name="q3"> C) External<br>
+          <input type="radio" name="q3"> D) Embedded
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>4. Which property changes text color?</p>
+        <div>
+          <input type="radio" name="q4"> A) font-color<br>
+          <input type="radio" name="q4"> B) text-color<br>
+          <input type="radio" name="q4"> C) color<br>
+          <input type="radio" name="q4"> D) background
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>5. Which selector targets an ID?</p>
+        <div>
+          <input type="radio" name="q5"> A) .header<br>
+          <input type="radio" name="q5"> B) #header<br>
+          <input type="radio" name="q5"> C) header<br>
+          <input type="radio" name="q5"> D) *header
+        </div>
+      </div>
+
+    </form>
+
+    <!-- Answer Key -->
+    <h4 class="text-info mt-4">Answer Key</h4>
+    <table class="table table-dark table-bordered mt-2">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Correct Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>B</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</section>
+
+<!-- Navigation -->
+<section class="py-4">
+  <div class="container d-flex justify-content-between">
+    <a href="module2-webdev.html" class="btn btn-outline-info">
+      ← Previous Module
+    </a>
+    <a href="module4-webdev.html" class="btn btn-primary">
+      Next Module →
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center py-3">
+  <p class="mb-0 text-light">© 2026 CodeCraft. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

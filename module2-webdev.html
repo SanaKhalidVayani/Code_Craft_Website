@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module 2 - Content & Elements | CodeCraft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5.3.8 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="CodeCraft Favicon.png">
+</head>
+
+<body class="bg-black text-white">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">CodeCraft</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link active" href="web-development.html">Web Development</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="py-5 bg-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold text-info">Module 2: Text, Links & Images</h1>
+    <p class="text-light mt-2">
+      Learn how to structure content using headings, paragraphs, links, and images
+    </p>
+  </div>
+</section>
+
+<!-- Video -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="text-info mb-3">Lesson Video</h3>
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.youtube.com/embed/qz0aGYrrlhU"
+        title="HTML Content Video"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Notes -->
+<section class="py-4 bg-dark">
+  <div class="container">
+    <h3 class="text-info">Notes & Transcript</h3>
+    <ul class="text-light mt-3">
+      <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> are used for headings</li>
+      <li><code>&lt;p&gt;</code> is used for paragraphs</li>
+      <li><code>&lt;a&gt;</code> tag is used to create hyperlinks</li>
+      <li><code>&lt;img&gt;</code> tag is used to insert images</li>
+      <li><code>src</code> attribute defines image path</li>
+      <li><code>href</code> attribute defines link destination</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Practice -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="text-info">Practice Task</h3>
+    <p class="text-light mt-2">
+      Create a webpage with one heading, one paragraph, one image, and one clickable link.
+    </p>
+
+    <p class="text-light fw-bold">Expected Output:</p>
+    <p class="text-light">
+      A webpage showing text content, an image, and a working hyperlink.
+    </p>
+  </div>
+</section>
+
+<!-- MCQs -->
+<section class="py-4 bg-dark">
+  <div class="container">
+    <h3 class="text-info">MCQs Quiz</h3>
+
+    <form class="text-light mt-3">
+
+      <div class="mb-3">
+        <p>1. Which tag is used to create a hyperlink?</p>
+        <div>
+          <input type="radio" name="q1"> A) &lt;link&gt;<br>
+          <input type="radio" name="q1"> B) &lt;a&gt;<br>
+          <input type="radio" name="q1"> C) &lt;href&gt;<br>
+          <input type="radio" name="q1"> D) &lt;url&gt;
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>2. Which attribute specifies the image location?</p>
+        <div>
+          <input type="radio" name="q2"> A) href<br>
+          <input type="radio" name="q2"> B) alt<br>
+          <input type="radio" name="q2"> C) src<br>
+          <input type="radio" name="q2"> D) link
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>3. &lt;h1&gt; represents:</p>
+        <div>
+          <input type="radio" name="q3"> A) Smallest heading<br>
+          <input type="radio" name="q3"> B) Normal text<br>
+          <input type="radio" name="q3"> C) Largest heading<br>
+          <input type="radio" name="q3"> D) Italic text
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>4. Which tag is self-closing?</p>
+        <div>
+          <input type="radio" name="q4"> A) &lt;p&gt;<br>
+          <input type="radio" name="q4"> B) &lt;a&gt;<br>
+          <input type="radio" name="q4"> C) &lt;img&gt;<br>
+          <input type="radio" name="q4"> D) &lt;h1&gt;
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>5. Which attribute opens a link in a new tab?</p>
+        <div>
+          <input type="radio" name="q5"> A) new<br>
+          <input type="radio" name="q5"> B) blank<br>
+          <input type="radio" name="q5"> C) target="_blank"<br>
+          <input type="radio" name="q5"> D) href="_new"
+        </div>
+      </div>
+
+    </form>
+
+    <!-- Answer Key -->
+    <h4 class="text-info mt-4">Answer Key</h4>
+    <table class="table table-dark table-bordered mt-2">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Correct Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>C</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</section>
+
+<!-- Navigation -->
+<section class="py-4">
+  <div class="container d-flex justify-content-between">
+    <a href="module1-webdev.html" class="btn btn-outline-info">
+      ← Previous Module
+    </a>
+    <a href="module3-webdev.html" class="btn btn-primary">
+      Next Module →
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center py-3">
+  <p class="mb-0 text-light">© 2026 CodeCraft. All rights reserved.</p>
+</footer>
+
+</b

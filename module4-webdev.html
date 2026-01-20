@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module 4 - Responsive Design & Bootstrap | CodeCraft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5.3.8 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="CodeCraft Favicon.png">
+</head>
+
+<body class="bg-black text-white">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">CodeCraft</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link active" href="web-development.html">Web Development</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="py-5 bg-dark text-center">
+  <div class="container">
+    <h1 class="fw-bold text-info">Module 4: Responsive Design & Bootstrap</h1>
+    <p class="text-light mt-2">
+      Learn how to build mobile-friendly websites using Bootstrap 5
+    </p>
+  </div>
+</section>
+
+<!-- Video -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="text-info mb-3">Lesson Video</h3>
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.youtube.com/embed/5GcQtLDGXy8"
+        title="Bootstrap 5 Responsive Design"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Notes -->
+<section class="py-4 bg-dark">
+  <div class="container">
+    <h3 class="text-info">Notes & Transcript</h3>
+    <ul class="text-light mt-3">
+      <li>Responsive design makes websites work on all screen sizes</li>
+      <li>Bootstrap is a front-end framework for faster UI development</li>
+      <li>The Bootstrap grid system uses rows and columns</li>
+      <li>col-md-6 means half width on medium screens and above</li>
+      <li>Utility classes help with spacing, text, and alignment</li>
+      <li>Navbar, cards, and buttons are pre-built Bootstrap components</li>
+      <li>Mobile-first design starts with small screens first</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Practice -->
+<section class="py-4">
+  <div class="container">
+    <h3 class="text-info">Practice Task</h3>
+    <p class="text-light mt-2">
+      Create a responsive page with a navbar and three cards using Bootstrap grid system.
+    </p>
+
+    <p class="text-light fw-bold">Expected Output:</p>
+    <p class="text-light">
+      A mobile-friendly layout that stacks cards on small screens and aligns them in a row on larger screens.
+    </p>
+  </div>
+</section>
+
+<!-- MCQs -->
+<section class="py-4 bg-dark">
+  <div class="container">
+    <h3 class="text-info">MCQs Quiz</h3>
+
+    <form class="text-light mt-3">
+
+      <div class="mb-3">
+        <p>1. What does responsive design mean?</p>
+        <div>
+          <input type="radio" name="q1"> A) Website loads faster<br>
+          <input type="radio" name="q1"> B) Website adapts to different screen sizes<br>
+          <input type="radio" name="q1"> C) Website uses JavaScript<br>
+          <input type="radio" name="q1"> D) Website uses animations
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>2. Which class creates a row in Bootstrap?</p>
+        <div>
+          <input type="radio" name="q2"> A) .container<br>
+          <input type="radio" name="q2"> B) .row<br>
+          <input type="radio" name="q2"> C) .col<br>
+          <input type="radio" name="q2"> D) .grid
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>3. What does col-md-4 mean?</p>
+        <div>
+          <input type="radio" name="q3"> A) 4 columns on all screens<br>
+          <input type="radio" name="q3"> B) 4 columns on medium and larger screens<br>
+          <input type="radio" name="q3"> C) 4 rows on medium screens<br>
+          <input type="radio" name="q3"> D) 4 pixels width
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>4. Which class makes images responsive?</p>
+        <div>
+          <input type="radio" name="q4"> A) img-flex<br>
+          <input type="radio" name="q4"> B) img-responsive<br>
+          <input type="radio" name="q4"> C) img-fluid<br>
+          <input type="radio" name="q4"> D) img-auto
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <p>5. Bootstrap follows which design approach?</p>
+        <div>
+          <input type="radio" name="q5"> A) Desktop-first<br>
+          <input type="radio" name="q5"> B) Mobile-first<br>
+          <input type="radio" name="q5"> C) Tablet-first<br>
+          <input type="radio" name="q5"> D) Fixed layout
+        </div>
+      </div>
+
+    </form>
+
+    <!-- Answer Key -->
+    <h4 class="text-info mt-4">Answer Key</h4>
+    <table class="table table-dark table-bordered mt-2">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Correct Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>B</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</section>
+
+<!-- Navigation -->
+<section class="py-4">
+  <div class="container d-flex justify-content-between">
+    <a href="module3-webdev.html" class="btn btn-outline-info">
+      ← Previous Module
+    </a>
+    <a href="web-development.html" class="btn btn-primary">
+      Finish Course
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center py-3">
+  <p class="mb-0 text-light">© 2026 CodeCraft. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
